@@ -13,7 +13,7 @@ const score = 100
 const scoreValue = 100.3
 
 
-constbigNumber = 1234567890123456789012345678901234567890n
+const bigNumber = 1234567890123456789012345678901234567890n
 
 
 const isLoggedIn = false
