@@ -54,7 +54,7 @@ console.log("It was fun learning about the different Math methods!");
 
 
 
-// building a logic cheaking app // 
+// building a logic cheaking app // code
 
 const hasDeveloperJob = true;
 
