@@ -57,3 +57,25 @@ let gameCounter = 100
 gameCounter++
 console.log(gameCounter);
 
+let myYoutubename = "smaran"
+
+let anothername = myYoutubename
+anotherName = "smaran 22"
+
+console.log(myYoutubename); // smaran
+console.log(anotherName); // smaran 22
+
+let userOne = {
+  email: "smaran.siwakoti@gmail.com",
+  upi: "smaran@okaxis",
+}
+/* so this shows that when we assign a primitive data type to another variable, it creates a copy of the value. So when we change the value of myYoutubename, it does not affect anotherName because it holds a copy of the original value. This is different from reference data types where both variables would point to the same object in memory, and changing one would affect the other. */
+
+let userTwo = userOne
+
+userTwo.email = "smaran22@gmail.com"
+console.log(userOne.email); // smaran.siwakoti@gmail.com
+console.log(userTwo.email); // smaran22@gmail.com
+
+
+
